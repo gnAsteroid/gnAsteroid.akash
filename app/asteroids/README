@@ -1,0 +1,6 @@
+You will want to mount a volume
+to VOLUME /app/asteroids
+
+This is simply a folder containing all your asteroids.
+An empty one is provided here for the example.
+

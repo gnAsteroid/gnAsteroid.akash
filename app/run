@@ -1,0 +1,15 @@
+# a simple way to publish several asteroids on one Akash deployment
+# just edit below.
+
+exec /init &
+sleep 3 
+
+cat /app/branding
+
+# since asteroids watch over their asteroid-dir (and style-dir)
+# you may use scp or rsync to push to asteroids.
+
+/app/gnAsteroid -bind="0.0.0.0:8888" -asteroid-name="example" -asteroid-dir="/app/asteroids/example" &
+/app/gnAsteroid -bind="0.0.0.0:8889" -asteroid-name="Ça résonne!" -asteroid-dir="/app/asteroids/empty" &
+
+while true; do sleep 86400; done

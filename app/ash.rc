@@ -1,0 +1,13 @@
+# Some aliases
+# make sure to `ENV ENV=/app/ash.rc` in Dockerfile
+#
+alias ls="ls --color=auto"
+alias l="ls -l"
+alias ll="ls -l"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+alias .......="cd ../../../../../.."
+
