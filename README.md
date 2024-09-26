@@ -1,6 +1,6 @@
 # gnAsteroid.docker
 
-This is a Dockerfile to launch [gnAsteroid](https://github.com/grepsuzette/gnAsteroid) instances.
+This is a Dockerfile to launch [gnAsteroid](https://github.com/gnAsteroid/gnAsteroid) instances.
 
 This is tentative and experimental. I managed to deploy two asteroids to Akash in the past using this system. But switched to using VPS or Vercel later. 
 

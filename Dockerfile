@@ -1,7 +1,7 @@
 FROM golang:1.22 as builder
 
 RUN apk update && apk add git go 
-RUN git clone https://github.com/grepsuzette/gnAsteroid /gnAsteroid
+RUN git clone https://github.com/gnAsteroid/gnAsteroid /gnAsteroid
 RUN go build -C /gnAsteroid -o /gnAsteroid/gnAsteroid
 
 FROM linuxserver/openssh-server:latest
