@@ -1,4 +1,4 @@
-# gnAsteroid.docker
+# gnAsteroid.akash
 
 This is a Dockerfile to launch [gnAsteroid](https://github.com/gnAsteroid/gnAsteroid) instances.
 
